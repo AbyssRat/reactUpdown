@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family:fantasy;
+    background-color: #f9cfff;
+    justify-self: center;
+    color: #822b8a;
+}
+
+.count-card{
+    background-color: #ffecf9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 20px auto;
+}
