@@ -10,11 +10,11 @@ function App() {
     }, [count])
     
     return (
-        <div>
+        <div id='kezelo'>
         <h1>számolj vro: {count}</h1>
-        <button onClick={() => setCount(count + 1)}>több :3</button>
+        <button className='up' onClick={() => setCount(count + 1)}>több :3</button>
         
-        <button onClick={() => setCount(count - 1)}>kevesebb :3</button>
+        <button className='down' onClick={() => setCount(count - 1)}>kevesebb :3</button>
         </div>
     )
 

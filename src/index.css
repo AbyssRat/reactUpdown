@@ -1,3 +1,12 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
 body{
     margin: 0;
     font-family:fantasy;
@@ -25,4 +34,17 @@ button{
     font-size: 16px;
     padding: 5px 5px;
     margin-top: 5px;
+}
+
+#kezelo{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#kezelo .up{
+    background-color: #ff99cc;
+}
+#kezelo .down{
+    background-color: #ff66b2;
 }
